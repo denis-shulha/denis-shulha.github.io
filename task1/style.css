@@ -1,60 +1,69 @@
 body {
-  margin: 0px;
+    margin : 0px;
+    background-color : gray; 
 }
 
-div.header {
-	background-color: skyblue;
-  width:100%;
-  line-height: 30px;
-  border-bottom: 3px solid black;
+.container {
+    width : 1000px;
+    margin : 0 auto;
+    border-left : 3px solid black;
+    border-right : 3px solid black;
+    background-color : #c7c7c7;
 }
 
-div.header p {
-  line-height: 30px;
-  margin: 0px;
-  margin-left: 30px;
-  vertical-align: middle;
+.header {
+    background-color : skyblue;
+    width : 100%;
+    border-bottom : 3px solid black;
 }
 
-div.footer {
-  border-top: 3px solid black;
-	background-color: skyblue;
-  text-align: center;
-  overflow-x: hidden;
-  width:100%;
+.header p {
+    margin-left: 30px !important;
 }
 
-div.content {
-	background-color: #c7c7c7;
-  overflow-x:auto;
+.nav {
+    margin : 0 auto;
+    text-align : center;
+    width : 100%;
 }
 
-div.container {
-	width:1000px;
-	margin: 0 auto;
+.nav div {
+    display : inline-block;
+    background-color : darkgreen;
+    width : 140px;
+    height : 140px; 
+    margin : 50px;
+}
+
+.nav .square a {
+    vertical-align : middle;
+    line-height : 100px;
+}
+
+.content {
+    background-color : #c7c7c7;
+    overflow-x : auto;
+    padding : 20px;
+}
+
+.footer {
+    border-top : 3px solid black;
+	background-color : skyblue;
+    text-align : center;
+    width : 100%;
 }
 
 div.row {
-  height:30px;
+    height : 30px;
+    overflow-x : hidden;
 }
 
 div.row p {
-  line-height: 30px;
-  margin: 0px;
-  vertical-align: middle;
-}
-
-table.squares {
-  width: 100%;
-}
-
-table.squares td div {
- background-color: darkgreen;
-  width: 100px;
-  height: 100px; 
-  margin: 0 auto;
+    line-height : 30px;
+    margin : 0px;
+    vertical-align : middle;
 }
 
 .nowrap {
-  white-space: nowrap;
+    white-space : nowrap;
 }
