@@ -48,20 +48,19 @@ body {
 
 .footer {
     border-top : 3px solid black;
-	background-color : skyblue;
+    background-color : skyblue;
     text-align : center;
     width : 100%;
 }
 
 div.row {
     height : 30px;
-    overflow-x : hidden;
+    line-height : 30px;
 }
 
 div.row p {
-    line-height : 30px;
-    margin : 0px;
-    vertical-align : middle;
+    margin: 0 auto;
+    overflow : hidden;
 }
 
 .nowrap {
