@@ -1,20 +1,20 @@
 body {
-    margin : 0px;
-    background-color : gray; 
+    margin: 0px;
+    background-color: gray; 
 }
 
 .container {
-    width : 1000px;
-    margin : 0 auto;
-    border-left : 3px solid black;
-    border-right : 3px solid black;
-    background-color : #c7c7c7;
+    width: 1000px;
+    margin: 0 auto;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    background-color: #c7c7c7;
 }
 
 .header {
-    background-color : skyblue;
-    width : 100%;
-    border-bottom : 3px solid black;
+    background-color: skyblue;
+    width: 100%;
+    border-bottom: 3px solid black;
 }
 
 .header p {
@@ -22,47 +22,47 @@ body {
 }
 
 .nav {
-    margin : 0 auto;
-    text-align : center;
-    width : 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
 }
 
 .nav div {
-    display : inline-block;
-    background-color : darkgreen;
-    width : 140px;
-    height : 140px; 
-    margin : 50px;
+    display: inline-block;
+    background-color: darkgreen;
+    width: 140px;
+    height: 140px; 
+    margin: 50px;
 }
 
 .nav .square a {
-    vertical-align : middle;
-    line-height : 100px;
+    vertical-align: middle;
+    line-height: 100px;
 }
 
 .content {
-    background-color : #c7c7c7;
-    overflow-x : auto;
-    padding : 20px;
+    background-color: #c7c7c7;
+    overflow-x: auto;
+    padding: 20px;
 }
 
 .footer {
-    border-top : 3px solid black;
-    background-color : skyblue;
-    text-align : center;
-    width : 100%;
+    border-top: 3px solid black;
+    background-color: skyblue;
+    text-align: center;
+    width: 100%;
 }
 
 div.row {
-    height : 30px;
-    line-height : 30px;
+    height: 30px;
+    line-height: 30px;
 }
 
 div.row p {
     margin: 0 auto;
-    overflow : hidden;
+    overflow: hidden;
 }
 
 .nowrap {
-    white-space : nowrap;
+    white-space: nowrap;
 }
