@@ -40,7 +40,7 @@ function binSearch(array, value) {
 }
 
 function findPairSum(array, value) {
-    var fps = function (array, start, end, value) {
+    var fps = function (value, array, start = 0, end = array.length - 1) {
         if(end < start || array[start] >= value || array[end] * 2 < value)
             return false;
         while(start < end && array[start] + array[end] != value) {
@@ -51,5 +51,7 @@ function findPairSum(array, value) {
         }
         return start < end;
     }
-    return fps(array, 0, array.length - 1, value);
+    var temp = array.slice(0);
+    numericSort(temp);
+    return fps(value, temp);
 }
